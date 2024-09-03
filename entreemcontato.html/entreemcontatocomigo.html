@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Gomes</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Sobre mim</a>
+            </li>
+            <li>
+                   <a href="minhaformação.html">Minha formação</a>
+            </li>
+            <li>
+                <a href="portfolio.html">portfólio</a>
+            </li>
+            <li>
+                <a href="entreemcontatocomigo.html">Entre em contato comigo</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+    <main>
+        <h1>Entre em Contato Comigo</h1>
+        <form action="mailto:exemplo@dominio.com" method="post" enctype="text/plain">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
