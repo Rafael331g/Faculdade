@@ -1,1 +1,25 @@
+body {
+    color: white;
+    background-color: black;
+}
 
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.portfolio-image {
+    width: 50%;
+    height: 25%; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    margin-top: 20px; 
+}
